@@ -120,7 +120,7 @@ fprintf('\n\n');
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-#{
+
 %% ================ Part 6: Initializing Pameters ================
 %  In this part of the exercise, you will be starting to implment a two
 %  layer neural network that classifies digits. You will start by
@@ -230,6 +230,6 @@ pause;
 
 pred = predict(Theta1, Theta2, X);
 
-fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);#}
+fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
 
 
